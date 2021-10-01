@@ -58,13 +58,5 @@ public class KasseApplication {
 
 		return new KafkaProducer<String,String>(props);
 	}
-	@Bean
-	public WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurer() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/articles").allowedOrigins("http://localhost:3000");
-			}
-		};
-	}
+
 }
