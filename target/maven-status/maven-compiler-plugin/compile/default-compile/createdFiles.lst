@@ -1,0 +1,10 @@
+de\hsos\masterarbeit\kasse\domain\RestResponseEntityExceptionHandler.class
+de\hsos\masterarbeit\kasse\domain\ArticleRepository.class
+de\hsos\masterarbeit\kasse\domain\Article.class
+de\hsos\masterarbeit\kasse\domain\KafkaTopicConfiguration.class
+de\hsos\masterarbeit\kasse\domain\ArticlesStore.class
+de\hsos\masterarbeit\kasse\domain\OffsetBeginningRebalanceListener.class
+de\hsos\masterarbeit\kasse\domain\api\ArticleController.class
+de\hsos\masterarbeit\kasse\domain\BackgroundJob.class
+de\hsos\masterarbeit\kasse\domain\KafkaListenerRunner.class
+de\hsos\masterarbeit\kasse\domain\KasseApplication.class
