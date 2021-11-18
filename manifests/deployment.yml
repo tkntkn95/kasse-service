@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: "masterarbeitcluster-472f"
+  name: "kasse-service"
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: "masterarbeitcluster-472f"
+      app: "kasse-service"
   template:
     metadata:
       labels:
-        app: "masterarbeitcluster-472f"
+        app: "kasse-service"
     spec:
       containers:
         - name: "masterarbeitcluster-472f"
-          image: "masterimages.azurecr.io/masterarbeitcluster"
+          image: "masterimages.azurecr.io/kasse-service.jar:latest"
           ports:
           - containerPort: 8081
