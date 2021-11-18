@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "masterarbeitcluster-472f"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "masterarbeitcluster-472f"
+  template:
+    metadata:
+      labels:
+        app: "masterarbeitcluster-472f"
+    spec:
+      containers:
+        - name: "masterarbeitcluster-472f"
+          image: "masterimages.azurecr.io/masterarbeitcluster"
+          ports:
+          - containerPort: 8081
